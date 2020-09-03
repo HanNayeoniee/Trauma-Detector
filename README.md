@@ -1,6 +1,7 @@
 # Trauma-Detector
 # 트라우마 초기 진단을 위한 음성 기반 감정 분류 방법
 Voice-based emotion classification for screening trauma
+
 ![image](https://img.shields.io/badge/language-C%23-blue?style=flat-square&logo=Visual-Studio)
 ![image](https://img.shields.io/badge/Latest%20Update-200405-9cf?style=flat-square)
 ![HitCount](http://hits.dwyl.com/minji-o-j/Advertisement-Analysis-Program.svg)   
