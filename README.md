@@ -39,7 +39,7 @@ Voice-based emotion classification for screening trauma
   
   샘플 512개 만큼 오버랩하며 shift하도록 설정 -> min-max scaler를 사용해 스케일링 
 
-<img src="https://user-images.githubusercontent.com/33839093/92070141-425eee00-ede6-11ea-9965-fd350665224f.jpg" width="30%">
+  <img src="https://user-images.githubusercontent.com/33839093/92070141-425eee00-ede6-11ea-9965-fd350665224f.jpg" width="30%">
 
 
 ---
