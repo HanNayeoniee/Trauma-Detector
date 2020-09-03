@@ -21,7 +21,6 @@ Voice-based emotion classification for screening trauma
 
 <img src="https://user-images.githubusercontent.com/33839093/92070141-425eee00-ede6-11ea-9965-fd350665224f.jpg" width="30%">
 
-![전처리](https://user-images.githubusercontent.com/33839093/92070375-cb762500-ede6-11ea-9eed-d6622e41707d.jpg)
 
 ---
 ## ◼ 목적 및 필요성
