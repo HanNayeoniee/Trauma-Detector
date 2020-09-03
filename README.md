@@ -26,6 +26,7 @@ Voice-based emotion classification for screening trauma
   6가지 기본 감정 중 fear, sad를 트라우마를 가진 감정으로, neutral, happy를 트라우마가 아닌 감정으로 대체함
 
 - 데이터 전처리
+
   ① 0.1s 단위로 shift하며 데이터를 2s단위로 자르기
   
   -> 데이터 간의 길이 차이를 없애고 데이터의 수를 늘림
