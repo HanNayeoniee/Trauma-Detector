@@ -16,16 +16,27 @@ Voice-based emotion classification for screening trauma
 ---
 ## ◼ 데이터셋 & 데이터 전처리
 - 국내 방송 영화 추출 데이터셋
-총 100명(남자 40명, 여자 60명), 2~11s 길이의 한국어 음성 데이터로 구성됨
 
-6가지 기본 감정(happy, sad, disgust, angry, surprise, fear)으로 구성됨
+  총 100명(남자 40명, 여자 60명), 2~11s 길이의 한국어 음성 데이터로 구성됨
+
+  6가지 기본 감정(happy, sad, disgust, angry, surprise, fear)으로 구성됨
 
 - 트라우마 감정 정의
-6가지 기본 감정 중 fear, sad를 트라우마를 가진 감정으로, neutral, happy를 트라우마가 아닌 감정으로 대체함
+
+  6가지 기본 감정 중 fear, sad를 트라우마를 가진 감정으로, neutral, happy를 트라우마가 아닌 감정으로 대체함
 
 - 데이터 전처리
-① ②
+  ① 0.1s 단위로 shift하며 데이터를 2s단위로 자르기
+  
+  -> 데이터 간의 길이 차이를 없애고 데이터의 수를 늘림
+  
+  ② STFT(Short-time Fourier Transform Spectogram)
 
+  STFT는 시계열 데이터를 일정 시간 구간으로 나눈 후, 해당 구간의 데이터를 푸리에 변환하는 방법
+  
+  2s 길이의 데이터를 sampling rate=1024로 설정해 FFT 수행
+  
+  샘플 512개 만큼 오버랩하며 shift하도록 설정 -> min-max scaler를 사용해 스케일링 
 
 <img src="https://user-images.githubusercontent.com/33839093/92070141-425eee00-ede6-11ea-9965-fd350665224f.jpg" width="30%">
 
