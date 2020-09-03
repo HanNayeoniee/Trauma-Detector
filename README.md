@@ -19,7 +19,8 @@ Voice-based emotion classification for screening trauma
 
 ---
 ## ◼ 목적 및 필요성
-
+트라우마에 대한 편견으로 인해 
+음성 데이터를 통해 트라우마의 초기 진단에 도움
 
 ---
 ## ◼ 개발자
