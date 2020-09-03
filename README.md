@@ -19,6 +19,8 @@ Voice-based emotion classification for screening trauma
 
 총 100명의 음성 데이터(남자 40명, 여자 60명), 6가지 기본 감정(happy, sad, disgust, angry, surprise, fear)으로 분류
 
+![전처리](https://user-images.githubusercontent.com/33839093/92070141-425eee00-ede6-11ea-9965-fd350665224f.jpg)
+
 ---
 ## ◼ 목적 및 필요성
 트라우마에 대한 편견으로 인해 병원 방문을 꺼리는 사람들이 많고 자신이 가진 트라우마에 대해 스스로 인지하지 못해 진단과 치료를 놓지는 경우가 많다.
