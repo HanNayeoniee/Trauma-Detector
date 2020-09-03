@@ -3,7 +3,7 @@
 Voice-based emotion classification for screening trauma
 
 
-[데이터셋 & 데이터 전처리 ](#-데이터셋 & 데이터 ) 
+[데이터셋 & 데이터 전처리](#-데이터셋&데이터 전처리) 
 
 [목적 및 필요성](#-목적-및-필요성) 
 
