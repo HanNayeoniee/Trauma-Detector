@@ -22,6 +22,8 @@ Voice-based emotion classification for screening trauma
 ![전처리](img src="https://user-images.githubusercontent.com/33839093/92070141-425eee00-ede6-11ea-9965-fd350665224f.jpg", width="140%")
 <img src="https://user-images.githubusercontent.com/33839093/92070141-425eee00-ede6-11ea-9965-fd350665224f.jpg", width="140%">
 
+![전처리](https://user-images.githubusercontent.com/33839093/92070375-cb762500-ede6-11ea-9eed-d6622e41707d.jpg)
+
 ---
 ## ◼ 목적 및 필요성
 트라우마에 대한 편견으로 인해 병원 방문을 꺼리는 사람들이 많고 자신이 가진 트라우마에 대해 스스로 인지하지 못해 진단과 치료를 놓지는 경우가 많다.
