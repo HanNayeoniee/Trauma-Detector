@@ -35,7 +35,7 @@ Voice-based emotion classification for screening trauma
 
   STFT는 시계열 데이터를 일정 시간 구간으로 나눈 후, 해당 구간의 데이터를 푸리에 변환하는 방법
   
-  2s 길이의 데이터를 sampling rate=1024로 설정해 FFT 수행
+  2s 길이의 데이터를 sampling rate=1024로 설정해 FFT 수행->
   
   샘플 512개 만큼 오버랩하며 shift하도록 설정 -> min-max scaler를 사용해 스케일링 
 
