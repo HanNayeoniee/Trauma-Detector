@@ -15,7 +15,8 @@ Voice-based emotion classification for screening trauma
 
 ---
 ## ◼ 데이터셋 설명
-국내 방송 영화 추출 데이터셋 사용
+국내 방송 영화 추출 데이터셋 
+
 총 100명의 음성 데이터(남자 40명, 여자 60명), 6가지 기본 감정(happy, sad, disgust, angry, surprise, fear)으로 분류
 
 ---
