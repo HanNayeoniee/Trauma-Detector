@@ -11,11 +11,9 @@ Voice-based emotion classification for screening trauma
 
 [목적 및 필요성](#-목적-및-필요성) 
 
-[개발자](#-개발자) 
+[개발자 및 개발 기간](#-개발자-및-개발-기간) 
 
-[개발 기간](#-개발-기간)  
-
-[논문](#-)
+[논문](https://drive.google.com/file/d/1Ni2s0wBTe1e_PVp3QwPboPERoHAm8YPj/view)
 
 ---
 ## ◼ 데이터셋 & 데이터 전처리
@@ -58,16 +56,9 @@ Voice-based emotion classification for screening trauma
 
 
 ---
-## ◼ 개발자
+## ◼ 개발자 및 개발 기간
 
 - [한나연(HanNayeoniee)](https://github.com/HanNayeoniee) [김나혜(nahye03)](https://github.com/nahye03) [김소의(DDoeuiGongju)](https://github.com/DDoeuiGongju) [목지원(mjw2705)](https://github.com/mjw2705) [유수경(sugyeong-yu)](https://github.com/sugyeong-yu)
 
-
----
-## ◼ 개발 기간
 - 2020/03 ~ 2020/08
 
-
----
-## ◼ 논문
-- [트라우마 초기 진단을 위한 음성 기반 감정 분류 방법](https://drive.google.com/file/d/1Ni2s0wBTe1e_PVp3QwPboPERoHAm8YPj/view)
