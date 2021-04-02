@@ -7,16 +7,13 @@ Voice-based emotion classification for screening trauma
 [![HitCount](http://hits.dwyl.com/HanNayeoniee/Trauma-Detector.svg)](http://hits.dwyl.com/HanNayeoniee/Trauma-Detector)
 
 
-
 [데이터셋 & 데이터 전처리](#-데이터셋-&-데이터-전처리) 
 
 [목적 및 필요성](#-목적-및-필요성) 
 
-[개발자](#-개발자) 
+[개발자 및 개발 기간](#-개발자-및-개발-기간) 
 
-[개발 기간](#-개발-기간)  
-
-[사용 프로그램](#-사용-프로그램)  
+[논문](https://drive.google.com/file/d/1Ni2s0wBTe1e_PVp3QwPboPERoHAm8YPj/view)
 
 ---
 ## ◼ 데이터셋 & 데이터 전처리
@@ -49,22 +46,19 @@ Voice-based emotion classification for screening trauma
 
 ---
 ## ◼ 목적 및 필요성
-트라우마에 대한 편견으로 인해 병원 방문을 꺼리는 사람들이 많고 자신이 가진 트라우마에 대해 스스로 인지하지 못해 진단과 치료를 놓지는 경우가 많다.
+- 트라우마에 대한 편견으로 인해 병원 방문을 꺼리는 사람들이 많고 자신이 가진 트라우마에 대해 스스로 인지하지 못해 진단과 치료를 놓지는 경우가 많다.
 
-딥러닝은 공학기술, 의료분야와 결합되어 흉요추 골절, 안면 비대칭 등 다양한 분야에서 의사들의 초기 진단에 도움을 주고 있다.
+- 딥러닝은 공학기술, 의료분야와 결합되어 흉요추 골절, 안면 비대칭 등 다양한 분야에서 의사들의 초기 진단에 도움을 주고 있다.
 
-음성 데이터를 활용한 성별 및 연령 분류, 음성 감정인식 등 활발한 연구가 진행되고 있으며 본 연구에서는 거부감이 없고 자연스러운 환경에서 비접촉식으로 얻을 수 있는 음성 데이터로 딥러닝 모델을 학습했다.
+- 음성 데이터를 활용한 성별 및 연령 분류, 음성 감정인식 등 활발한 연구가 진행되고 있으며 본 연구에서는 거부감이 없고 자연스러운 환경에서 비접촉식으로 얻을 수 있는 음성 데이터로 딥러닝 모델을 학습했다.
 
-음성 데이터를 통해 트라우마의 초기 진단에 도움을 주는 시스템을 구축했다.
+- 음성 데이터를 통해 트라우마의 초기 진단에 도움을 주는 시스템을 구축했다.
+
 
 ---
-## ◼ 개발자
+## ◼ 개발자 및 개발 기간
 
-- [한나연(HanNayeoniee)](https://github.com/HanNayeoniee), [김나혜(nahye03)](https://github.com/nahye03), [김소의(DDoeuiGongju)](https://github.com/DDoeuiGongju), [목지원(mjw2705)](https://github.com/mjw2705), [유수경(sugyeong-yu)](https://github.com/sugyeong-yu)
----
-## ◼ 개발 기간
+- [한나연(HanNayeoniee)](https://github.com/HanNayeoniee) [김나혜(nahye03)](https://github.com/nahye03) [김소의(DDoeuiGongju)](https://github.com/DDoeuiGongju) [목지원(mjw2705)](https://github.com/mjw2705) [유수경(sugyeong-yu)](https://github.com/sugyeong-yu)
+
 - 2020/03 ~ 2020/08
 
-
----
-## ◼ 사용 프로그램
