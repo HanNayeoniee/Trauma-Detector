@@ -61,4 +61,5 @@ Voice-based emotion classification for screening trauma
 - [한나연(HanNayeoniee)](https://github.com/HanNayeoniee) [김나혜(nahye03)](https://github.com/nahye03) [김소의(DDoeuiGongju)](https://github.com/DDoeuiGongju) [목지원(mjw2705)](https://github.com/mjw2705) [유수경(sugyeong-yu)](https://github.com/sugyeong-yu)
 
 - 2020/03 ~ 2020/08
+-! 
 
