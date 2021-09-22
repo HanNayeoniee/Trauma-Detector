@@ -65,14 +65,10 @@ IHCI 2020 Screening Trauma Through CNN-Based Voice Emotion Classifiaction  (â˜žï
 > - VGG-13
 >
 > <img src="https://user-images.githubusercontent.com/33839093/134285303-77bd6ffc-7c6d-415f-bf9c-d1a1edaec982.PNG" width=400px>
-> 
-> <img src="https://user-images.githubusercontent.com/33839093/134290915-b472679a-3f75-4a8f-a7ba-1c2c7f0c8675.png" width=350px>
 
 > - VGG-16
 >
 > <img src="https://user-images.githubusercontent.com/33839093/134291073-6f5c5beb-0fad-4afd-ac84-5b395cbb54e5.png" width=400px>
-> 
-> <img src="https://user-images.githubusercontent.com/33839093/134291179-719ed82a-36b4-4dae-8c78-2a7b3912d6d3.png" width=350px>
 
 > - VGG-19
 > 
