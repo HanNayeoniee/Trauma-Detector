@@ -1,0 +1,4 @@
+pip install matplotlib>=3.3
+pip install librosa
+pip install pydub
+scipy>=1.5
