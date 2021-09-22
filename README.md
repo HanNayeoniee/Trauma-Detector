@@ -25,18 +25,6 @@ IHCI 2020 Screening Trauma Through CNN-Based Voice Emotion Classifiaction  (☞�
 
 - 음성 데이터를 통해 트라우마 초기 진단에 도움을 줄 수 있다.
 
-## Files
-- pre-processing.ipynb : 음성 데이터 전처리
-- VGG_train_test.ipynb : VGG모델 학습 및 성능 평가
-
-## Installation
-```python
-git clone https://github.com/HanNayeoniee/Trauma-Detector.git
-
-(anaconda prompt)
-pip install -r requirements.txt
-```
-
 ## Dataset
 - 국내 방송 영화 추출 데이터셋
 
@@ -50,25 +38,68 @@ pip install -r requirements.txt
 
 ## Pre-processing
 
-  ① 0.1s 단위로 shift하며 데이터를 2s단위로 자르기
+  ① 음성을 0.1s 단위로 shift하며 2s 단위로 재구성
   
   -> 데이터 간의 길이 차이를 없애고 데이터의 수를 늘림
   
-  ② STFT(Short-time Fourier Transform Spectogram)
+  ② 1차원 음성 데이터를 2차원 이미지로 변환하기 위해 STFT(Short-time Fourier Transform Spectogram) 수행
 
   STFT는 시계열 데이터를 일정 시간 구간으로 나눈 후, 해당 구간의 데이터를 푸리에 변환하는 방법
   
-  2s 길이의 데이터를 sampling rate=1024로 설정해 FFT 수행 -> 샘플 512개 만큼 overlap하며 shift -> min-max scaler를 사용해 스케일링 
+  2s 길이의 데이터를 sampling rate=1024로 설정해 FFT 수행 -> 샘플 512개 만큼 overlap하며 shift -> 
+  모든 데이터가 0~1 사이의 값을 가지도록 min-max scaler를 사용해 스케일링 
 
   <img src="https://user-images.githubusercontent.com/33839093/134281938-8cc420b9-43f3-42b8-8de0-b55e6169956e.PNG" width=500px>
+
+> 데이터 전처리 과정
 
   <img src="https://user-images.githubusercontent.com/33839093/134281998-7a6dddfd-a5c3-4573-b9b4-ea2d67a1398d.PNG" width=450px>
 
 > 음성 데이터 스펙트로그램 예시
+>
 > (a) fear, (b) sad, (c) happy, (d) neutral에 해당하며 (a), (b)는 트라우마 감정, (c), (d)는 트라우마가 아닌 감정으로 사용 
 
 
 ## Model
 
+> - VGG-13
+> <img src="https://user-images.githubusercontent.com/33839093/134285303-77bd6ffc-7c6d-415f-bf9c-d1a1edaec982.PNG" width=400px>
+> <img src="https://user-images.githubusercontent.com/33839093/134290915-b472679a-3f75-4a8f-a7ba-1c2c7f0c8675.png" width=350px>
+
+> - VGG-16
+> <img src="https://user-images.githubusercontent.com/33839093/134291073-6f5c5beb-0fad-4afd-ac84-5b395cbb54e5.png" width=400px>
+> <img src="https://user-images.githubusercontent.com/33839093/134291179-719ed82a-36b4-4dae-8c78-2a7b3912d6d3.png" width=350px>
+
+> - VGG-19
+> 
+> <img src="https://user-images.githubusercontent.com/33839093/134291584-cdcd61c5-b12c-40f6-a3a1-93169f9ececb.png" width=350px>
+
 
 ## Accuracy
+
+|Model|Test accuracy|
+|---|---|
+|VGG-13|98.96%|
+|Layer-14|98.49%|
+|VGG-16|96.42%|
+|Resnet-50|87.35%|
+
+<img src="https://user-images.githubusercontent.com/33839093/134285636-a4e23a95-53d5-4056-a957-00b0e6566906.PNG" width=300px>
+
+> confusion matrix
+
+<img src="https://user-images.githubusercontent.com/33839093/134285644-466b74f8-e775-4b70-bf52-d9127cfb5e00.PNG" width=300px>
+
+> ROC curve
+
+## Files
+- [pre-processing.ipynb](https://github.com/HanNayeoniee/Trauma-Detector/blob/master/pre-processing.ipynb) : 음성 데이터 전처리
+- [VGG_train_test.ipynb](https://github.com/HanNayeoniee/Trauma-Detector/blob/master/VGG_train_test.ipynb) : VGG모델 학습 및 성능 평가
+
+## Installation
+```python
+git clone https://github.com/HanNayeoniee/Trauma-Detector.git
+
+(anaconda prompt)
+pip install -r requirements.txt
+```
