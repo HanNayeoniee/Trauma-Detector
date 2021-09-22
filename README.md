@@ -98,6 +98,7 @@ IHCI 2020 Screening Trauma Through CNN-Based Voice Emotion Classifiaction  (â˜žï
 
 ## Installation
 ```python
+(git bash)
 git clone https://github.com/HanNayeoniee/Trauma-Detector.git
 
 (anaconda prompt)
