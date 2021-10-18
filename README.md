@@ -42,7 +42,9 @@ IHCI 2020 Screening Trauma Through CNN-Based Voice Emotion Classifiaction  (☞�
   
   -> 데이터 간의 길이 차이를 없애고 데이터의 수를 늘림
   
-  ② 1차원 음성 데이터를 2차원 이미지로 변환하기 위해 STFT(Short-time Fourier Transform Spectogram) 수행
+  ② STFT(Short-time Fourier Transform) 후 spectrogram 수행
+  
+  1차원 음성 데이터를 2차원 이미지로 변환함.
 
   STFT는 시계열 데이터를 일정 시간 구간으로 나눈 후, 해당 구간의 데이터를 푸리에 변환하는 방법
   
@@ -73,6 +75,11 @@ IHCI 2020 Screening Trauma Through CNN-Based Voice Emotion Classifiaction  (☞�
 > - VGG-19
 > 
 > <img src="https://user-images.githubusercontent.com/33839093/134291584-cdcd61c5-b12c-40f6-a3a1-93169f9ececb.png" width=350px>
+
+## Post-processing
+
+<img src="https://user-images.githubusercontent.com/33839093/137657118-d3cbb7ee-ef30-460c-8384-e9b49d7e51c5.PNG" width=350px>
+
 
 
 ## Accuracy
