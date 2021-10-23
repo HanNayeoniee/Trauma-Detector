@@ -78,8 +78,21 @@ IHCI 2020 Screening Trauma Through CNN-Based Voice Emotion Classifiaction  (☞�
 
 ## Post-processing
 
+window size 크기 안의 예측값이 모두 1일 때 최종적으로 1로 예측하고, 모두 0일 때 0으로 예측한다. 
+
 <img src="https://user-images.githubusercontent.com/33839093/137657118-d3cbb7ee-ef30-460c-8384-e9b49d7e51c5.PNG" width=350px>
 
+> window size=4일 때 후처리를 통한 최종 예측값 :
+>
+> (1, 1, 1, 1) -> 1
+>
+> (1, 1, 1, 0) -> 1
+>
+> (1, 1, 0, 0) -> 1
+>
+> (1, 0, 0, 0) -> 1
+>
+> (0, 0, 0, 0) -> 0
 
 
 ## Accuracy
